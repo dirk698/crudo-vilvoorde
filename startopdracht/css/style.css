@@ -1,8 +1,49 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   background: lightgray;
+}
+.hero {
+  background-color: #6dccaa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 80vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 5px solid red;
+}
+.social-shit {
+  background-color: blueviolet;
+}
+.banaan {
+  flex-grow: 1;
+}
+/*start a flex-container....*/
+.d-flex {
+  display: flex;
+}
+nav {
+  background-color: yellow;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.two-columns > * {
+  flex: 1 1 calc(100% / 3);
+}
+section {
+  padding: 4rem 0;
+}
+.passie {
+  background-color: yellow;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
